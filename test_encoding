@@ -1,0 +1,14 @@
+# Enter input bit stream in an Array
+# For Example bit_stream = [1,0,0,0,1,1,1]
+# Then, call run_length_encoding(bit_stream) to get output
+
+# List for storing input bits
+bit_stream = []
+
+# Generating 100 bits randomly
+for i in range(100):
+    random_bit = random.randint(0,1)
+    bit_stream.append(random_bit)
+    
+# Call run_length_encoding(bit_stream) to compute Run Length Encoding of input bit stream
+run_length_encoding(bit_stream)
