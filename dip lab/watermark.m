@@ -1,6 +1,4 @@
-% Adding Watermark to an Image
-% Created By : Dheeraj Kumar
-%%
+
 clc;
 clear;
 close all;
