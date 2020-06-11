@@ -4,7 +4,7 @@ clear;
 close all;
 
 % Reading Test Image
-test_image = imread('m.jpg');
+test_image = imread('Minion.png');
 
 % Resizing Test Image to 256x256x3
 test_image = imresize(test_image,[256 256]);
